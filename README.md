@@ -1,152 +1,156 @@
-<h1 align="center">🚚✨ LoadConnect</h1>
-<p align="center">
-  <b>Smart Logistics Platform for Efficient Load Booking & Transport</b><br>
-  <i>Bridging rural roots to urban roads with smarter, greener, and scalable logistics</i>
-</p>
+# 🚚 LoadConnect – Smart Logistics Platform
 
-<p align="center">
-  <a href="https://loadconnectx78.netlify.app/"><img src="https://img.shields.io/badge/Live-Demo-green?style=for-the-badge&logo=netlify" alt="Live Demo"></a>
-  <a href="https://github.com/Prakashjhax/LoadConnect"><img src="https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge&logo=github" alt="GitHub Repo"></a>
-</p>
+> An end-semester capstone project submitted as part of the Hybrid UG Program in Computer Science & Data Analytics  
+> **Indian Institute of Technology Patna**  
+> Group No: 78 | Roll No: 24a12res446  
+> Student: **Prakash Kumar Jha**
 
 ---
 
-## 🌟 Overview
+## 🧭 Project Overview
 
-**LoadConnect** is a full-stack logistics platform that connects **rural producers**, **urban buyers**, and **transport operators**. It tackles one of India's biggest logistics inefficiencies: _empty return trips_. With real-time maps, intelligent load matching, and a clean user interface, LoadConnect makes rural-urban logistics smarter, cheaper, and cleaner.
+**LoadConnect** is a full-stack logistics platform that addresses a critical gap in rural-urban transportation: empty return trips by commercial vehicles. Our solution empowers vehicle owners, rural producers, and urban buyers by providing a smart, centralized system for booking, matching, and managing logistics.
 
-> 🔄 **No more empty trucks**  
-> 💸 **Boost income for drivers**  
-> 🌱 **Reduce fuel waste and emissions**  
+### 🎯 Objective
 
----
-
-## 🧠 Problem We Solved
-
-- ❌ Empty truck returns = fuel waste + revenue loss  
-- 💔 Rural producers can’t easily access city markets  
-- 🚫 Urban logistics platforms ignore rural needs  
-
-### ✅ Our Solution: `LoadConnect`
-A seamless digital bridge between rural and urban logistics using:
-
-- 📍 Location-based load matching  
-- 🔐 Secure booking & quote system  
-- 🚛 Real-time route visualization  
-- 📊 Centralized load & vehicle management  
+- Minimize empty return trips
+- Optimize vehicle utilization
+- Digitize rural-urban logistics workflows
+- Promote sustainable and cost-effective transportation
 
 ---
 
-## 🚀 Live Project
+## 🌐 Live Demo
 
-🖥️ **Live Website:**  
-[🔗 https://loadconnectx78.netlify.app](https://loadconnectx78.netlify.app)
+🔗 **Website**: [https://loadconnectx78.netlify.app](https://loadconnectx78.netlify.app)
 
-📂 **GitHub Repository:**  
-[🔗 github.com/Prakashjhax/LoadConnect](https://github.com/Prakashjhax/LoadConnect)
+📂 **Repository**: [GitHub - LoadConnect](https://github.com/Prakashjhax/LoadConnectx78)
 
 ---
 
-## 🧰 Tech Stack
+## ⚙️ Tech Stack
 
-### 💻 Frontend
+### Frontend
 - HTML, CSS, JavaScript
 - Google Maps API
-- Leaflet.js + OpenStreetMap for route visualization
+- Leaflet.js + OSRM (Distance & Route Calculation)
 
-### 🔧 Backend
-- Node.js + Express.js
-- JWT Auth, Twilio OTP, bcrypt.js
-- Multer for secure file uploads
+### Backend
+- Node.js, Express.js
+- JWT Authentication
+- bcrypt.js (Password Hashing)
+- Twilio API (OTP Verification)
+- Multer (File Uploads)
 
-### 🗃️ Database
-- PostgreSQL (via `pg` module), hosted on [Neon.tech](https://neon.tech)
-- Initial setup: MySQL
+### Database
+- MySQL (initial setup)
+- PostgreSQL (final deployment via Neon.tech)
 
-### 🧪 Tools & Services
-- Postman, GitHub, VS Code, dotenv
-
----
-
-## 📂 Project Structure
-LoadConnect/
-│
-├── client/ # Frontend
-├── server/ # Backend
-│ ├── routes/
-│ ├── controllers/
-│ ├── middlewares/
-│
-├── database/ # SQL schemas
-├── .env # Secrets & Keys
-└── README.md
-## 👨‍💻 Core Features
-
-- 📌 **User Modules:** Customer & Operator dashboards  
-- 📦 **Load / Vehicle Postings:** Add, view, quote  
-- 📍 **Distance Calculator:** Visual route plotting  
-- 📬 **Contact & Feedback Forms**  
-- 📊 **Secure API Integration** using JWT, OTP & bcrypt  
-- 📤 **Multer-based file uploads** for KYC (Aadhaar, etc.)
+### Tools & Services
+- Postman (API testing)
+- Git & GitHub (Version Control)
+- Visual Studio Code
+- dotenv (.env configuration)
 
 ---
 
-## 👥 Meet the Team
+## 🧩 Key Features
 
-| Name                     | Role               | Contributions                          |
-|--------------------------|--------------------|----------------------------------------|
-| 🧑‍💻 Prakash Kumar Jha     | Frontend Lead       | UI, Maps, Responsiveness, Docs         |
-| 🧑‍💻 Asit Kumar Jena        | Backend Lead        | API Auth, OTP, File Uploads            |
-| 🧑‍💻 Akashy Kumar Kushwaha  | Database Engineer    | DB Design, Integration (PostgreSQL)    |
-| 🙅‍♂️ Nikhil Kumar Keshri     | -                  | No Contribution                        |
-| 🙅 Chandrashekhar Kumar Jha | -                  | No Contribution                        |
+- 🔐 **Secure Authentication** (JWT + OTP via Twilio)
+- 🚛 **Vehicle & Load Posting** Modules
+- 📍 **Live Route Distance Calculation**
+- 📦 **Booking & Quotation System**
+- 📥 **Aadhaar / Document Uploads**
+- 📱 **Fully Responsive UI**
+- 📬 **Contact & Feedback Forms**
 
 ---
 
-# Backend Setup
-cd server
-npm install
-npm run dev
+## 🧠 Modules Breakdown
 
-# Frontend
-# Open client/index.html in browser
-🧑‍🎓 What We Learned
-Building responsive UI without frameworks 🧱
+### User Module
+- Login / Signup
+- Dashboard with recent loads & bookings
+- Post a load or vehicle
+- Booking history
 
-Managing API calls and async logic in vanilla JS 📡
+### Operator Module
+- View loads
+- Send quotes
+- Manage profile and uploaded documents
 
-Connecting DB–API–UI as a full-stack pipeline 🔗
+---
 
-Real-world problem-solving from scratch 💡
+## 🏗️ System Architecture
 
-🌈 Future Upgrades
-📍 Real-time vehicle tracking
+- **Frontend**: Built using core web technologies without frameworks for learning depth.
+- **Backend**: Modular Express architecture with route-level middleware for security and scalability.
+- **Database**: Relational schema with normalized entities (loads, vehicles, users, bookings).
+- **API Testing**: Thoroughly tested using Postman collections and error handling.
 
-📱 Mobile App (React Native or Flutter)
+---
 
-🔔 Smart notifications & alerts
+## 👨‍💻 Team Contributions
 
-🧠 AI-based load suggestions
+| Name                    | Role             | Responsibility Summary                                 |
+|-------------------------|------------------|--------------------------------------------------------|
+| **Prakash Kumar Jha**   | Frontend      | UI/UX Design, JavaScript Logic, Map Integration, Docs |
+| **Asit Kumar Jena**     | Backend  | API Creation, Authentication, OTP, File Uploads       |
+| **Akashy Kumar Kushwaha** | DataBase     | SQL Schema, PostgreSQL Integration, Data Pipelines     |
+| Nikhil Kumar Keshri     | -                | No Contribution                                        |
+| Chandrashekhar Kumar Jha | -                | No Contribution                                        |
 
-💬 Integrated chatbot support
+---
 
-📈 Performance dashboard (admin)
+## 🧪 Challenges Faced
 
-💳 UPI / QR-based payments
+- Responsive design without CSS frameworks
+- Debugging layout issues manually
+- JavaScript form handling and async API calls
+- Leaflet and OSRM integration for distance plotting
+- Managing backend–frontend–DB connectivity
 
-📚 References & Acknowledgements
-W3Schools
+---
 
-MDN Web Docs
+## 📈 What I Learned
 
-CodeWithHarry
+- Designing frontend interfaces from scratch
+- Real-world API integration and form workflows
+- Fullstack project architecture and deployment
+- Problem-solving under constraints
+- Collaborating in a team-based development setting
 
-ChatGPT
+---
 
-Special thanks to mentors, ChatGPT, and YouTube for ongoing support and inspiration 🎓
+## 🚀 Future Enhancements
 
-💬 Connect With Us
-📧 Email | ✉️ Inquiry Form | 💻 GitHub Issues
-🌐 LoadConnect Live
+- 📍 Live Vehicle Tracking
+- 🔔 Smart Notifications
+- 🤖 AI-Powered Load Matching
+- 💬 Integrated Chatbot
+- 📱 Mobile App
+- 💳 UPI / QR Payments
+- 📊 Performance Dashboard for Admins
 
-<p align="center"><i>🚚 Empowering logistics. 📦 Supporting rural India. 🌱 Building greener transport. </i></p> 
+---
+
+## 📚 References
+
+- [W3Schools](https://w3schools.com)
+- [MDN Web Docs](https://developer.mozilla.org)
+- [CodeWithHarry YouTube Channel](https://www.youtube.com/@CodeWithHarry)
+- [ChatGPT](https://chat.openai.com)
+
+---
+
+## 📌 Submission Details
+
+- **Submitted by**: Prakash Kumar Jha  
+- **Program**: Hybrid UG (CSE & Data Analytics)  
+- **Roll No**: 24a12res446  
+- **Institute**: IIT Patna  
+- **Submission Date**: 25/06/2025
+
+---
+
+> _“Connecting rural roots to urban roads with technology.”_
