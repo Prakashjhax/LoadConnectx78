@@ -103,13 +103,6 @@ LoadConnect/
 
 ---
 
-## 📲 How to Run Locally
-
-```bash
-# Clone the project
-git clone https://github.com/Prakashjhax/LoadConnect.git
-cd LoadConnect
-
 # Backend Setup
 cd server
 npm install
@@ -156,4 +149,4 @@ Special thanks to mentors, ChatGPT, and YouTube for ongoing support and inspirat
 📧 Email | ✉️ Inquiry Form | 💻 GitHub Issues
 🌐 LoadConnect Live
 
-<p align="center"><i>🚚 Empowering logistics. 📦 Supporting rural India. 🌱 Building greener transport. </i></p> ```
+<p align="center"><i>🚚 Empowering logistics. 📦 Supporting rural India. 🌱 Building greener transport. </i></p> 
